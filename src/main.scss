@@ -2,143 +2,143 @@ $background-color_1: var(--background-tertiary);
 $background-color_2: var(--background-primary);
 
 :root {
-	--radius-secondary: 10px;
+  --radius-secondary: 10px;
 }
 .header-1nkwgG {
-	--webkit-shadow: none;
-	box-shadow: none !important;
-	filter: none;
+  --webkit-shadow: none;
+  box-shadow: none !important;
+  filter: none;
 }
 .header-11eigE {
-	--webkit-shadow: none;
-	box-shadow: none !important;
-	filter: none;
-	padding-top: 16px;
+  --webkit-shadow: none;
+  box-shadow: none !important;
+  filter: none;
+  padding-top: 16px;
 }
 .header-JHwfVI {
-	--webkit-shadow: none;
-	box-shadow: none !important;
-	filter: none;
+  --webkit-shadow: none;
+  box-shadow: none !important;
+  filter: none;
 }
 .positionLayer-1cndvf.layer-2aCOJ3 {
-	bottom: 135px !important;
+  bottom: 135px !important;
 }
 div#popout_7505 {
-	top: 500px !important;
-	right: 265px !important;
+  top: 500px !important;
+  right: 265px !important;
 }
 .contentWrapper-3vHNP2 {
-	grid-template-rows: auto;
-	min-height: 442px !important;
-	.nav-1zWVQw {
-		position: fixed;
-		bottom: 90px;
-		height: 40px;
-		width: 392px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		border-radius: var(--radius-secondary);
-		border-top-left-radius: 0px;
-		border-top-right-radius: 0px;
-		background-color: $background-color_1;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		z-index: 101;
-	}
-	.navList-YSb9UB {
-		position: fixed;
-		bottom: 90px;
-		height: 40px;
-		width: 392px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		border-radius: var(--radius-secondary);
-		border-top-left-radius: 0px;
-		border-top-right-radius: 0px;
-		background-color: $background-color_1;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		z-index: 101;
-	}
+  grid-template-rows: auto;
+  min-height: 442px !important;
+  .nav-1zWVQw {
+    position: fixed;
+    bottom: 90px;
+    height: 40px;
+    width: 392px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: var(--radius-secondary);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: $background-color_1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 101;
+  }
+  .navList-YSb9UB {
+    position: fixed;
+    bottom: 90px;
+    height: 40px;
+    width: 392px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: var(--radius-secondary);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: $background-color_1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 101;
+  }
 }
 .inspector-DFKXwB.inspector-2A2Chb {
-	height: 0;
-	display: none;
+  height: 0;
+  display: none;
 }
 .bodyWrapper-1eSOtW {
-	height: 320px;
-	margin-top: -5px;
-	padding-left: 10px;
-	padding-right: 5px;
+  height: 320px;
+  margin-top: -5px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 .drawerSizingWrapper-1txdWG {
-	height: 442px !important;
-	max-width: 424px;
-	.resizeHandle-T_gFJR {
-		display: none;
-		cursor: default;
-	}
+  height: 442px !important;
+  max-width: 424px;
+  .resizeHandle-T_gFJR {
+    display: none;
+    cursor: default;
+  }
 }
 #emoji-picker-tab-panel {
-	.wrapper-22rqw6.categoryList-2qRrlj {
-		transform: rotate(-90deg);
-		transform: rotate(-90deg) translateX(225px) translateY(190px);
-		height: 400px;
-		padding-top: 0px !important;
-		border-radius: var(--radius-secondary);
-		.listItems-6eZzQ1 {
-			.categoryItem-1sHzUv {
-				transform: rotate(90deg);
-			}
-			background: var(--background-tertiary) !important;
-			border-radius: var(--radius-secondary);
-		}
-		.unicodeShortcut-3N8oDe {
-			transform: rotate(90deg);
-			background: var(--background-tertiary) !important;
-			border-radius: var(--radius-secondary);
-		}
-		.scroller-2MALzE {
-			background: var(--background-tertiary) !important;
-			border-radius: var(--radius-secondary);
-		}
-	}
-	.emojiPicker-6YCk8a {
-		grid-template-rows: 46px auto calc(calc(48px * 2) + 8px) !important;
-		grid-template-columns: 0 auto !important;
-		position: relative !important;
-		padding-top: 65px;
-		height: 420px;
-		width: 428px;
-		border-radius: 5px !important;
-		.emoji-4YP39J {
-			margin-left: -5px !important;
-		}
-		.searchBar-2M9mRP {
-			background: var(--background-primary) !important;
-		}
-		.inspector-2A2Chb {
-			background: var(--background-primary) !important;
-		}
-	}
+  .wrapper-22rqw6.categoryList-2qRrlj {
+    transform: rotate(-90deg);
+    transform: rotate(-90deg) translateX(225px) translateY(190px);
+    height: 400px;
+    padding-top: 0px !important;
+    border-radius: var(--radius-secondary);
+    .listItems-6eZzQ1 {
+      .categoryItem-1sHzUv {
+        transform: rotate(90deg);
+      }
+      background: var(--background-tertiary) !important;
+      border-radius: var(--radius-secondary);
+    }
+    .unicodeShortcut-3N8oDe {
+      transform: rotate(90deg);
+      background: var(--background-tertiary) !important;
+      border-radius: var(--radius-secondary);
+    }
+    .scroller-2MALzE {
+      background: var(--background-tertiary) !important;
+      border-radius: var(--radius-secondary);
+    }
+  }
+  .emojiPicker-6YCk8a {
+    grid-template-rows: 46px auto calc(calc(48px * 2) + 8px) !important;
+    grid-template-columns: 0 auto !important;
+    position: relative !important;
+    padding-top: 65px;
+    height: 420px;
+    width: 428px;
+    border-radius: 5px !important;
+    .emoji-4YP39J {
+      margin-left: -5px !important;
+    }
+    .searchBar-2M9mRP {
+      background: var(--background-primary) !important;
+    }
+    .inspector-2A2Chb {
+      background: var(--background-primary) !important;
+    }
+  }
 }
 #gif-picker-tab-panel {
-	.searchBar-gJe8lY {
-		background: var(--background-primary) !important;
-	}
+  .searchBar-gJe8lY {
+    background: var(--background-primary) !important;
+  }
 }
 .container-1SX9VC {
-	background: var(--background-primary) !important;
+  background: var(--background-primary) !important;
 }
 .inner-1NoIT5 {
-	background: var(--background-primary) !important;
+  background: var(--background-primary) !important;
 }
 .emojiItem-277VFM {
-	.emojiItemImageLoading-1yEIxx {
-		background-image: none;
-		background-color: $background-color_2 !important;
-		border-radius: 30%;
-	}
+  .emojiItemImageLoading-1yEIxx {
+    background-image: none;
+    background-color: $background-color_2 !important;
+    border-radius: 30%;
+  }
 }
