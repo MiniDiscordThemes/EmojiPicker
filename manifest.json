@@ -1,19 +1,19 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "dev.obscure.EmojiPicker",
+  "name": "EmojiPicker",
+  "description": "Changes the look of emoji picker",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "obscure",
+    "discordID": "755436063828213821",
+    "github": "kritishd8"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
-    "type": "github",
-    "id": "replugged-org/theme-template"
+    "type": "store",
+    "id": "dev.obscure.EmojiPicker"
   },
   "license": "MIT",
-  "source": "https://github.com/replugged-org/theme-template",
+  "source": "https://github.com/kritishd8/Emoji-Picker",
   "type": "replugged-theme",
   "main": "src/main.css"
 }

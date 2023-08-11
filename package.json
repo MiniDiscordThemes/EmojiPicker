@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
-  "version": "1.0.0",
-  "description": "A theme template",
+  "name": "EmojiPicker",
+  "version": "1.0.1",
+  "description": "Changes the look of emoji picker",
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
