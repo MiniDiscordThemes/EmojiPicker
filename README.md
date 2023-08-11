@@ -1,3 +1,1 @@
-# Replugged theme template
-
-See the [theme development guide](https://guide.replugged.dev/docs/themes/getting-started) for more information on using this template.
+Preview: https://i.imgur.com/JtQ7BJT.png

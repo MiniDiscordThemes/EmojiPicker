@@ -1,6 +1,6 @@
 {
   "name": "EmojiPicker",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Changes the look of emoji picker",
   "engines": {
     "node": ">=18.0.0",
