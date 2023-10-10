@@ -1,20 +1,24 @@
 {
-  "id": "dev.obscure.EmojiPicker",
+  "id": "net.saltssaumure.EmojiPicker",
   "name": "EmojiPicker",
-  "description": "Changes the look of emoji picker",
-  "author": {
+  "description": "A new emoji picker layout.",
+  "author": [{
+    "name": "Saltssaumure",
+    "discordID": "134142022092062720",
+    "github": "Saltssaumure"
+  },{
     "name": "obscure",
     "discordID": "755436063828213821",
     "github": "kritishd8"
-  },
-  "version": "1.1.0",
+  }],
+  "version": "1.2.0",
   "updater": {
     "type": "store",
-    "id": "dev.obscure.EmojiPicker"
+    "id": "net.saltssaumure.EmojiPicker"
   },
   "license": "MIT",
-  "source": "https://github.com/kritishd8/EmojiPicker",
-  "image": "https://i.imgur.com/JtQ7BJT.png",
   "type": "replugged-theme",
-  "main": "src/main.css"
+  "main": "scss/pick.css",
+  "source": "https://github.com/MiniDiscordThemes/EmojiPicker",
+  "image": "https://i.imgur.com/JtQ7BJT.png"
 }
