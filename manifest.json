@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "scss/pick.css",
+  "main": "scss/pick.scss",
   "source": "https://github.com/MiniDiscordThemes/EmojiPicker",
   "image": "https://i.imgur.com/JtQ7BJT.png"
 }
