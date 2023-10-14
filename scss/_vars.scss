@@ -1,0 +1,12 @@
+:root {
+    --picker-radius-icon: 50%;
+    --picker-radius-inner: 50px;
+    --picker-radius-outer: 20px;
+}
+
+$bg-1: var(--background-tertiary);
+$bg-2: var(--background-primary);
+
+$rad-icon: var(--picker-radius-icon);
+$rad-inner: var(--picker-radius-inner);
+$rad-outer: var(--picker-radius-outer);

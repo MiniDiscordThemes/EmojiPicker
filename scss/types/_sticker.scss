@@ -1,0 +1,16 @@
+@use "../vars" as *;
+@use "../shared";
+
+#sticker-picker-tab-panel {
+    grid-template-rows: 46px auto calc(calc(48px * 2)) !important;
+    grid-template-columns: 0 auto !important;
+
+    // Server list
+    .wrapper-22rqw6.categoryList-2GgCrD {
+        @include shared.serverlist;
+    }
+    // Sticker picker
+    .listWrapper-2DwCYS {
+        @include shared.pickergrid;
+    }
+}

@@ -1,0 +1,86 @@
+@use "./vars" as *;
+@use "./shared";
+
+@forward "./types";
+
+.header-1nkwgG {
+    --webkit-shadow: none;
+    box-shadow: none !important;
+    filter: none;
+}
+.header-11eigE {
+    --webkit-shadow: none;
+    box-shadow: none !important;
+    filter: none;
+    padding-top: 16px;
+}
+.header-JHwfVI {
+    --webkit-shadow: none;
+    box-shadow: none !important;
+    filter: none;
+}
+
+// Chat picker
+// Sizing wrapper
+.drawerSizingWrapper-1txdWG {
+    height: 442px !important;
+    max-width: 424px;
+
+    // Resizing handle
+    .resizeHandle-T_gFJR {
+        display: none;
+        cursor: default;
+    }
+
+    // Tightest wrapper around whole popout
+    .contentWrapper-3vHNP2 {
+        grid-template-rows: auto;
+        min-height: 442px !important;
+
+        // Gif/sticker/emoji tab bar
+        .nav-1zWVQw {
+            position: fixed;
+            bottom: 90px;
+            height: 40px;
+            width: 392px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: $rad-outer;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            background-color: $bg-1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            z-index: 101;
+
+            .navList-YSb9UB {
+                position: fixed;
+                bottom: 90px;
+                height: 40px;
+                width: 392px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: $rad-outer;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                background-color: $bg-1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                z-index: 101;
+            }
+        }
+
+        // Emoji/sticker info
+        .inspector-DFKXwB {
+            height: 0;
+            display: none;
+        }
+
+        // Emoji/sticker searchbar
+        .container-1SX9VC {
+            @include shared.searchbar;
+        }
+    }
+}

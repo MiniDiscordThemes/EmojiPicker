@@ -1,0 +1,33 @@
+@use "../vars" as *;
+@use "../shared";
+
+#emoji-picker-tab-panel {
+    .wrapper-22rqw6.categoryList-2qRrlj {
+        @include shared.serverlist;
+    }
+    .emojiPicker-6YCk8a {
+        @include shared.pickergrid;
+
+        .emojiItem-277VFM {
+            .emojiItemImageLoading-1yEIxx {
+                background-image: none;
+                background-color: $bg-2 !important;
+                border-radius: 30%;
+            }
+        }
+    }
+
+    // Emoji list wrapper
+    .bodyWrapper-1eSOtW {
+        height: 320px;
+        margin-top: -5px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    // Skin tone selector
+    .diversitySelectorOptions-3DhNYs {
+        border-radius: $rad-inner;
+    }
+}
+

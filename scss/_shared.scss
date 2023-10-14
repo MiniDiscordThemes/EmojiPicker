@@ -1,0 +1,45 @@
+@use "./vars" as *;
+
+@mixin searchbar {
+    background: $bg-2;
+    border-radius: $rad-inner;
+}
+
+@mixin serverlist {
+    transform: rotate(-90deg);
+    transform: rotate(-90deg) translateX(225px) translateY(190px);
+    height: 400px;
+    padding-top: 0px !important;
+    border-radius: $rad-inner;
+
+    // Server/category
+    .listItems-6eZzQ1 {
+        .categoryItem-1sHzUv {
+            transform: rotate(90deg);
+        }
+        background: $bg-1 !important;
+        border-radius: $rad-icon;
+    }
+
+    // Jump to default emojis
+    .unicodeShortcut-3N8oDe {
+        transform: rotate(90deg);
+        background: $bg-1 !important;
+        border-radius: $rad-inner;
+    }
+
+    .scroller-2MALzE {
+        background: $bg-1 !important;
+        border-radius: $rad-outer;
+    }
+}
+
+@mixin pickergrid {
+    grid-template-rows: 46px auto calc(calc(48px * 2) + 8px) !important;
+    grid-template-columns: 0 auto !important;
+    position: relative !important;
+    padding-top: 65px;
+    height: 420px;
+    width: 428px;
+    border-radius: 5px !important;
+}
