@@ -1,7 +1,7 @@
 {
   "name": "emojipicker-discord-theme",
-  "version": "1.2.0",
-  "description": "A new emoji picker layout.",
+  "version": "2.0.0",
+  "description": "A fresh emoji picker layout.",
   "repository": "github:MiniDiscordThemes/EmojiPicker",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "contributors": [
@@ -25,7 +25,7 @@
     "@parcel/config-default": "^2.10.0",
     "@parcel/core": "^2.10.0",
     "@parcel/transformer-sass": "^2.10.0",
-    "@types/node": "^20.8.4",
+    "@types/node": "^20.8.6",
     "prettier": "^3.0.3",
     "replugged": "^4.6.5",
     "salt-bd-scss": "^1.1.0"

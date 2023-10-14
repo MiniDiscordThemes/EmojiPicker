@@ -2,7 +2,12 @@
 @use "../shared";
 
 #gif-picker-tab-panel {
-    .container-2oNtJn {
-        @include shared.searchbar;
+    .header-2TLOnc {
+        box-shadow: none;
+
+        // Search bar
+        .container-2oNtJn {
+            @include shared.searchbar;
+        }
     }
 }

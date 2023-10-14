@@ -2,15 +2,32 @@
 @use "../shared";
 
 #sticker-picker-tab-panel {
-    grid-template-rows: 46px auto calc(calc(48px * 2)) !important;
-    grid-template-columns: 0 auto !important;
+    grid-template-columns: 0 auto;
+    padding-top: 64px;
+
+    .header-uVCAlo {
+        box-shadow: none;
+
+        // Search bar
+        .container-1SX9VC {
+            @include shared.searchbar;
+        }
+    }
+
+    // Sticker picker
+    .wrapper-i1awk3 {
+        padding-left: 10px;
+        .listWrapper-2DwCYS {
+            @include shared.pickergrid;
+        }
+    }
 
     // Server list
-    .wrapper-22rqw6.categoryList-2GgCrD {
+    .wrapper-22rqw6 {
         @include shared.serverlist;
-    }
-    // Sticker picker
-    .listWrapper-2DwCYS {
-        @include shared.pickergrid;
+
+        .stickerCategory-2f6iSo {
+            border-radius: $rad-icon;
+        }
     }
 }

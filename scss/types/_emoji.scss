@@ -2,32 +2,45 @@
 @use "../shared";
 
 #emoji-picker-tab-panel {
-    .wrapper-22rqw6.categoryList-2qRrlj {
-        @include shared.serverlist;
-    }
     .emojiPicker-6YCk8a {
         @include shared.pickergrid;
+        grid-template-rows: 46px auto 0;
+        grid-template-columns: 0 auto;
 
-        .emojiItem-277VFM {
+        .header-11eigE {
+            box-shadow: none;
+
+            // Search bar
+            .container-1SX9VC {
+                @include shared.searchbar;
+            }
+
+            // Skin tone selector
+            .diversitySelectorOptions-3DhNYs {
+                border-radius: $rad-inner;
+            }
+        }
+
+        // Emoji list wrapper
+        .bodyWrapper-1eSOtW {
+            height: 320px;
+            padding-left: 10px;
+            padding-right: 5px;
+
+            // Emoji
             .emojiItemImageLoading-1yEIxx {
                 background-image: none;
                 background-color: $bg-2 !important;
-                border-radius: 30%;
             }
         }
     }
 
-    // Emoji list wrapper
-    .bodyWrapper-1eSOtW {
-        height: 320px;
-        margin-top: -5px;
-        padding-left: 10px;
-        padding-right: 5px;
-    }
+    // Server list
+    .wrapper-22rqw6.categoryList-2qRrlj {
+        @include shared.serverlist;
 
-    // Skin tone selector
-    .diversitySelectorOptions-3DhNYs {
-        border-radius: $rad-inner;
+        .categoryItemDefaultCategory-3haEDq {
+            border-radius: $rad-icon;
+        }
     }
 }
-
