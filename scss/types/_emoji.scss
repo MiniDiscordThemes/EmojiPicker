@@ -2,27 +2,27 @@
 @use "../shared";
 
 #emoji-picker-tab-panel {
-    .emojiPicker-6YCk8a {
+    .emojiPicker_b65ce9 {
         @include shared.pickergrid;
         grid-template-rows: 46px auto 0;
         grid-template-columns: 0 auto;
 
-        .header-11eigE {
+        .header__55964 {
             box-shadow: none;
 
             // Search bar
-            .container-1SX9VC {
+            .container_e4c233 {
                 @include shared.searchbar;
             }
 
             // Skin tone selector
-            .diversitySelectorOptions-3DhNYs {
+            .diversitySelectorOptions__846c5 {
                 border-radius: $rad-inner;
             }
         }
 
         // Emoji list wrapper
-        .bodyWrapper-1eSOtW {
+        .bodyWrapper_cc3635 {
             height: 320px;
             padding-left: 10px;
             padding-right: 5px;
@@ -36,10 +36,10 @@
     }
 
     // Server list
-    .wrapper-22rqw6.categoryList-2qRrlj {
+    .wrapper__4f229.categoryList_f8c48f {
         @include shared.serverlist;
 
-        .categoryItemDefaultCategory-3haEDq {
+        .categoryItemDefaultCategory__67fe7 {
             border-radius: $rad-icon;
         }
     }
