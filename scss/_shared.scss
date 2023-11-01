@@ -11,16 +11,16 @@
     border-radius: $rad-inner;
 
     // Server/category
-    .categoryItem-1sHzUv,
-    .stickerCategory-2f6iSo {
+    .categoryItem__39904,
+    .stickerCategory__4891e {
         transform: rotate(90deg);
         border-radius: $rad-icon;
     }
 
     // Jump to default stickers
-    .standardStickerShortcut-ObSns3,
+    .standardStickerShortcut__5254d,
     // Jump to default emojis
-    .unicodeShortcut-3N8oDe {
+    .unicodeShortcut__1dd6b {
         transform: rotate(90deg);
     }
 }
