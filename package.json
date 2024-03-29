@@ -1,6 +1,6 @@
 {
   "name": "emojipicker-discord-theme",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A fresh emoji picker layout.",
   "repository": "github:MiniDiscordThemes/EmojiPicker",
   "author": "Saltssaumure <themes@saltssaumure.net>",
@@ -22,8 +22,8 @@
     "release": "replugged release"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "replugged": "^4.7.4",
-    "salt-bd-scss": "^1.1.0"
+    "prettier": "^3.2.5",
+    "replugged": "^4.7.9",
+    "salt-bd-scss": "^1.2.2"
   }
 }
