@@ -5,28 +5,28 @@
     grid-template-columns: 0 auto;
     padding-top: 64px;
 
-    .header_f71767 {
+    .header__643ce {
         box-shadow: none;
 
         // Search bar
-        .container_e4c233 {
+        .container_ec5ce2 {
             @include shared.searchbar;
         }
     }
 
     // Sticker picker
-    .wrapper_e3070a {
+    .wrapper__13e5b {
         padding-left: 10px;
-        .listWrapper__74641 {
+        .listWrapper__588b8 {
             @include shared.pickergrid;
         }
     }
 
     // Server list
-    .wrapper__4f229 {
+    .wrapper__85934 {
         @include shared.serverlist;
 
-        .stickerCategory__4891e {
+        .stickerCategory__12120 {
             border-radius: $rad-icon;
         }
     }
