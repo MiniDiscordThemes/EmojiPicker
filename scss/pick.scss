@@ -5,28 +5,28 @@
 
 // Chat picker
 // Sizing wrapper
-.drawerSizingWrapper_e20f1f {
+.drawerSizingWrapper_af5dbb {
     height: 442px !important;
     max-width: 424px;
 
     // Resizing handle
-    .resizeHandle_dd7cb9 {
+    .resizeHandle_af5dbb {
         display: none;
         cursor: default;
     }
 
     // Tightest wrapper around whole popout
-    .contentWrapper_e0bb2c {
+    .contentWrapper_af5dbb {
         grid-template-rows: auto;
         min-height: 442px !important;
         border-radius: $rad-outer $rad-outer 0 0;
         overflow: visible;
 
         // Gif/sticker/emoji tab bar
-        .nav_b56420 {
+        .nav_af5dbb {
             @include shared.tabbar;
 
-            .navButton_b588d0 {
+            .navButton_af5dbb {
                 border-radius: $rad-inner;
             }
         }
@@ -52,7 +52,7 @@
 }
 
 // Emoji/sticker info
-.inspector__80c84 {
+.inspector_c3120f {
     height: 0;
     display: none;
 }
